@@ -1,4 +1,4 @@
-from smartapi import SmartConnect
+from SmartApi import SmartConnect
 import pandas as pd
 import requests
 import pyotp
