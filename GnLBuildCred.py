@@ -10,20 +10,20 @@ import os
 # Initialize logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Initialize SmartConnect with Password Login
-def initialize_api(retries=5, delay=3):
+# Initialize SmartConnect
+def initialize_api(retries=3, delay=2):
     # Fetch credentials from environment variables
     api_key = os.getenv('API_KEY')
     user_name = os.getenv('USER_NAME')
-    mpin = os.getenv('MPIN')  # Used as password for loginByPassword
+    password = os.getenv('PASSWORD')
     totp_secret = os.getenv('TOTP_SECRET')
 
     # Debug: Print loaded credentials
-    print(f"Loaded credentials: API_KEY={'***' if api_key else None}, USER_NAME={'***' if user_name else None}, MPIN={'***' if mpin else None}, TOTP_SECRET={'***' if totp_secret else None}")
+    print(f"Loaded credentials: API_KEY={'***' if api_key else None}, USER_NAME={'***' if user_name else None}, PASSWORD={'***' if password else None}, TOTP_SECRET={'***' if totp_secret else None}")
 
     # Validate credentials
-    if not all([api_key, user_name, mpin, totp_secret]):
-        print("❌ Missing credentials in environment variables. Please set API_KEY, USER_NAME, MPIN, and TOTP_SECRET in GitHub Secrets.")
+    if not all([api_key, user_name, password, totp_secret]):
+        print("❌ Missing credentials in environment variables. Please set API_KEY, USER_NAME, PASSWORD, and TOTP_SECRET in GitHub Secrets.")
         exit()
 
     try:
@@ -33,80 +33,31 @@ def initialize_api(retries=5, delay=3):
         print(f"❌ Error generating TOTP: {str(e)}")
         exit()
 
-    # Initialize SmartConnect (for headers and session management)
     obj = SmartConnect(api_key=api_key)
     
-    # Custom loginByPassword request
-    url = "https://apiconnect.angelone.in/rest/auth/angelbroking/user/v1/loginByPassword"
-    headers = {
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-        "X-UserType": "USER",
-        "X-SourceID": "WEB",
-        "X-PrivateKey": api_key,
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
-    }
-    payload = {
-        "clientcode": user_name,
-        "password": mpin,  # Using MPIN as password
-        "totp": totp,
-        "state": "live"
-    }
-
     for attempt in range(retries):
         try:
-            print(f"Attempt {attempt + 1}/{retries} for loginByPassword")
-            print(f"Request payload: {json.dumps(payload, indent=2)}")
-            response = requests.post(url, json=payload, headers=headers)
-            # Debug: Print response details
-            print(f"LoginByPassword response: Status={response.status_code}, Headers={response.headers}, Text={response.text}")
-            response.raise_for_status()
-            try:
-                data = response.json()
-            except ValueError as e:
-                print(f"❌ Failed to parse JSON response: {str(e)}")
-                print(f"Raw response: {response.text}")
-                if attempt < retries - 1:
-                    print(f"🔄 Retrying after {delay} seconds...")
-                    time.sleep(delay)
-                    # Regenerate TOTP for next attempt
-                    payload["totp"] = pyotp.TOTP(totp_secret).now()
-                    continue
-                exit()
-            
+            data = obj.generateSession(user_name, password, totp)
+            print(f"Login attempt {attempt + 1}/{retries} response: {json.dumps(data, indent=2)}")
             if data.get('status') and data.get('data', {}).get('jwtToken'):
                 print("✅ API session initialized successfully.")
-                print(f"Session response: {json.dumps(data, indent=2)}")
-                # Manually set access_token in SmartConnect object
-                obj.access_token = data['data']['jwtToken']
                 return obj
             else:
                 print(f"❌ Login failed: {data.get('message', 'Unknown error')}")
-                print(f"Full session response: {json.dumps(data, indent=2)}")
                 if attempt < retries - 1:
                     print(f"🔄 Retrying after {delay} seconds...")
                     time.sleep(delay)
                     # Regenerate TOTP for next attempt
-                    payload["totp"] = pyotp.TOTP(totp_secret).now()
+                    totp = pyotp.TOTP(totp_secret).now()
                     continue
                 exit()
-        except requests.exceptions.HTTPError as e:
-            print(f"❌ HTTP error during login (Attempt {attempt + 1}/{retries}): {str(e)}")
-            print(f"Status code: {response.status_code}, Response text: {response.text}")
-            if attempt < retries - 1:
-                print(f"🔄 Retrying after {delay} seconds...")
-                time.sleep(delay)
-                # Regenerate TOTP for next attempt
-                payload["totp"] = pyotp.TOTP(totp_secret).now()
-                continue
-            exit()
         except Exception as e:
             print(f"❌ Login failed (Attempt {attempt + 1}/{retries}): {str(e)}")
             if attempt < retries - 1:
                 print(f"🔄 Retrying after {delay} seconds...")
                 time.sleep(delay)
                 # Regenerate TOTP for next attempt
-                payload["totp"] = pyotp.TOTP(totp_secret).now()
+                totp = pyotp.TOTP(totp_secret).now()
                 continue
             exit()
     
@@ -122,8 +73,10 @@ def fetch_post_data(api_obj, endpoint, datatype, expirytype="NEAR", retries=2, d
         "Accept": "application/json",
         "X-UserType": "USER",
         "X-SourceID": "WEB",
-        "X-PrivateKey": os.getenv('API_KEY'),
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+        "X-ClientLocalIP": getattr(api_obj, '_client_local_ip', "127.0.0.1"),
+        "X-ClientPublicIP": getattr(api_obj, '_client_public_ip', "127.0.0.1"),
+        "X-MACAddress": getattr(api_obj, '_mac_address', "00:00:00:00:00:00"),
+        "X-PrivateKey": os.getenv('API_KEY')
     }
     payload = {
         "datatype": datatype,
@@ -174,8 +127,10 @@ def fetch_pcr_volume(api_obj, retries=2, delay=2):
         "Accept": "application/json",
         "X-UserType": "USER",
         "X-SourceID": "WEB",
-        "X-PrivateKey": os.getenv('API_KEY'),
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+        "X-ClientLocalIP": getattr(api_obj, '_client_local_ip', "127.0.0.1"),
+        "X-ClientPublicIP": getattr(api_obj, '_client_public_ip', "127.0.0.1"),
+        "X-MACAddress": getattr(api_obj, '_mac_address', "00:00:00:00:00:00"),
+        "X-PrivateKey": os.getenv('API_KEY')
     }
 
     for attempt in range(retries + 1):
