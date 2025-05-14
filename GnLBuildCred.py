@@ -5,26 +5,25 @@ import pyotp
 import logging
 import json
 import time
-from dotenv import load_dotenv
 import os
-
-# Load environment variables from .env file
-load_dotenv()
 
 # Initialize logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Initialize SmartConnect with MPIN Login
 def initialize_api():
-    # Fetch credentials from .env
+    # Fetch credentials from environment variables
     api_key = os.getenv('API_KEY')
     user_name = os.getenv('USER_NAME')
     mpin = os.getenv('MPIN')
     totp_secret = os.getenv('TOTP_SECRET')
 
+    # Debug: Print loaded credentials
+    print(f"Loaded credentials: API_KEY={'***' if api_key else None}, USER_NAME={'***' if user_name else None}, MPIN={'***' if mpin else None}, TOTP_SECRET={'***' if totp_secret else None}")
+
     # Validate credentials
     if not all([api_key, user_name, mpin, totp_secret]):
-        print("❌ Missing credentials in .env file. Please set API_KEY, USER_NAME, MPIN, and TOTP_SECRET.")
+        print("❌ Missing credentials in environment variables. Please set API_KEY, USER_NAME, MPIN, and TOTP_SECRET in GitHub Secrets.")
         exit()
 
     try:
@@ -56,8 +55,15 @@ def initialize_api():
 
     try:
         response = requests.post(url, json=payload, headers=headers)
+        # Debug: Print response details
+        print(f"LoginByMPin response: Status={response.status_code}, Headers={response.headers}, Text={response.text}")
         response.raise_for_status()
-        data = response.json()
+        try:
+            data = response.json()
+        except ValueError as e:
+            print(f"❌ Failed to parse JSON response: {str(e)}")
+            print(f"Raw response: {response.text}")
+            exit()
         
         if data.get('status') and data.get('data', {}).get('jwtToken'):
             print("✅ API session initialized successfully.")
@@ -69,6 +75,10 @@ def initialize_api():
             print(f"❌ Login failed: {data.get('message', 'Unknown error')}")
             print(f"Full session response: {json.dumps(data, indent=2)}")
             exit()
+    except requests.exceptions.HTTPError as e:
+        print(f"❌ HTTP error during login: {str(e)}")
+        print(f"Status code: {response.status_code}, Response text: {response.text}")
+        exit()
     except Exception as e:
         print(f"❌ Login failed: {str(e)}")
         exit()
@@ -137,8 +147,8 @@ def fetch_pcr_volume(api_obj, retries=2, delay=2):
         "X-UserType": "USER",
         "X-SourceID": "WEB",
         "X-ClientLocalIP": getattr(api_obj, '_client_local_ip', "127.0.0.1"),
-        "X-ClientPublicIP": getattr(api_obj, '_client_public_ip', "127.0.0.1"),
-        "X-MACAddress": getattr(api_obj, '_mac_address', "00:00:00:00:00:00"),
+        "X-ClientPublicIP": getattr(obj, '_client_public_ip', "127.0.0.1"),
+        "X-MACAddress": getattr(obj, '_mac_address', "00:00:00:00:00:00"),
         "X-PrivateKey": os.getenv('API_KEY')
     }
 
