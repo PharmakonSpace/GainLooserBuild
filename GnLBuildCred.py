@@ -1,4 +1,4 @@
-from SmartApi import SmartConnect
+from smartapi import SmartConnect
 import pandas as pd
 import requests
 import pyotp
@@ -10,12 +10,12 @@ import os
 # Initialize logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Initialize SmartConnect with MPIN Login
+# Initialize SmartConnect with Password Login
 def initialize_api(retries=5, delay=3):
     # Fetch credentials from environment variables
     api_key = os.getenv('API_KEY')
     user_name = os.getenv('USER_NAME')
-    mpin = os.getenv('MPIN')
+    mpin = os.getenv('MPIN')  # Used as password for loginByPassword
     totp_secret = os.getenv('TOTP_SECRET')
 
     # Debug: Print loaded credentials
@@ -36,8 +36,8 @@ def initialize_api(retries=5, delay=3):
     # Initialize SmartConnect (for headers and session management)
     obj = SmartConnect(api_key=api_key)
     
-    # Custom loginByMPin request
-    url = "https://apiconnect.angelone.in/rest/auth/angelbroking/user/v1/loginByMPin"
+    # Custom loginByPassword request
+    url = "https://apiconnect.angelone.in/rest/auth/angelbroking/user/v1/loginByPassword"
     headers = {
         "Content-Type": "application/json",
         "Accept": "application/json",
@@ -48,18 +48,18 @@ def initialize_api(retries=5, delay=3):
     }
     payload = {
         "clientcode": user_name,
-        "mpin": mpin,
+        "password": mpin,  # Using MPIN as password
         "totp": totp,
         "state": "live"
     }
 
     for attempt in range(retries):
         try:
-            print(f"Attempt {attempt + 1}/{retries} for loginByMPin")
+            print(f"Attempt {attempt + 1}/{retries} for loginByPassword")
             print(f"Request payload: {json.dumps(payload, indent=2)}")
             response = requests.post(url, json=payload, headers=headers)
             # Debug: Print response details
-            print(f"LoginByMPin response: Status={response.status_code}, Headers={response.headers}, Text={response.text}")
+            print(f"LoginByPassword response: Status={response.status_code}, Headers={response.headers}, Text={response.text}")
             response.raise_for_status()
             try:
                 data = response.json()
