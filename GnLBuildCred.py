@@ -1,4 +1,4 @@
-from SmartApi import SmartConnect
+from smartapi import SmartConnect
 import pandas as pd
 import requests
 import pyotp
@@ -11,7 +11,7 @@ import os
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Initialize SmartConnect with MPIN Login
-def initialize_api():
+def initialize_api(retries=5, delay=3):
     # Fetch credentials from environment variables
     api_key = os.getenv('API_KEY')
     user_name = os.getenv('USER_NAME')
@@ -28,6 +28,7 @@ def initialize_api():
 
     try:
         totp = pyotp.TOTP(totp_secret).now()
+        print(f"TOTP generated: {totp} (length: {len(totp)})")
     except Exception as e:
         print(f"❌ Error generating TOTP: {str(e)}")
         exit()
@@ -42,46 +43,75 @@ def initialize_api():
         "Accept": "application/json",
         "X-UserType": "USER",
         "X-SourceID": "WEB",
-        "X-ClientLocalIP": getattr(obj, '_client_local_ip', "127.0.0.1"),
-        "X-ClientPublicIP": getattr(obj, '_client_public_ip', "127.0.0.1"),
-        "X-MACAddress": getattr(obj, '_mac_address', "00:00:00:00:00:00"),
-        "X-PrivateKey": api_key
+        "X-PrivateKey": api_key,
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
     }
     payload = {
         "clientcode": user_name,
         "mpin": mpin,
-        "totp": totp
+        "totp": totp,
+        "state": "live"
     }
 
-    try:
-        response = requests.post(url, json=payload, headers=headers)
-        # Debug: Print response details
-        print(f"LoginByMPin response: Status={response.status_code}, Headers={response.headers}, Text={response.text}")
-        response.raise_for_status()
+    for attempt in range(retries):
         try:
-            data = response.json()
-        except ValueError as e:
-            print(f"❌ Failed to parse JSON response: {str(e)}")
-            print(f"Raw response: {response.text}")
+            print(f"Attempt {attempt + 1}/{retries} for loginByMPin")
+            print(f"Request payload: {json.dumps(payload, indent=2)}")
+            response = requests.post(url, json=payload, headers=headers)
+            # Debug: Print response details
+            print(f"LoginByMPin response: Status={response.status_code}, Headers={response.headers}, Text={response.text}")
+            response.raise_for_status()
+            try:
+                data = response.json()
+            except ValueError as e:
+                print(f"❌ Failed to parse JSON response: {str(e)}")
+                print(f"Raw response: {response.text}")
+                if attempt < retries - 1:
+                    print(f"🔄 Retrying after {delay} seconds...")
+                    time.sleep(delay)
+                    # Regenerate TOTP for next attempt
+                    payload["totp"] = pyotp.TOTP(totp_secret).now()
+                    continue
+                exit()
+            
+            if data.get('status') and data.get('data', {}).get('jwtToken'):
+                print("✅ API session initialized successfully.")
+                print(f"Session response: {json.dumps(data, indent=2)}")
+                # Manually set access_token in SmartConnect object
+                obj.access_token = data['data']['jwtToken']
+                return obj
+            else:
+                print(f"❌ Login failed: {data.get('message', 'Unknown error')}")
+                print(f"Full session response: {json.dumps(data, indent=2)}")
+                if attempt < retries - 1:
+                    print(f"🔄 Retrying after {delay} seconds...")
+                    time.sleep(delay)
+                    # Regenerate TOTP for next attempt
+                    payload["totp"] = pyotp.TOTP(totp_secret).now()
+                    continue
+                exit()
+        except requests.exceptions.HTTPError as e:
+            print(f"❌ HTTP error during login (Attempt {attempt + 1}/{retries}): {str(e)}")
+            print(f"Status code: {response.status_code}, Response text: {response.text}")
+            if attempt < retries - 1:
+                print(f"🔄 Retrying after {delay} seconds...")
+                time.sleep(delay)
+                # Regenerate TOTP for next attempt
+                payload["totp"] = pyotp.TOTP(totp_secret).now()
+                continue
             exit()
-        
-        if data.get('status') and data.get('data', {}).get('jwtToken'):
-            print("✅ API session initialized successfully.")
-            print(f"Session response: {json.dumps(data, indent=2)}")
-            # Manually set access_token in SmartConnect object
-            obj.access_token = data['data']['jwtToken']
-            return obj
-        else:
-            print(f"❌ Login failed: {data.get('message', 'Unknown error')}")
-            print(f"Full session response: {json.dumps(data, indent=2)}")
+        except Exception as e:
+            print(f"❌ Login failed (Attempt {attempt + 1}/{retries}): {str(e)}")
+            if attempt < retries - 1:
+                print(f"🔄 Retrying after {delay} seconds...")
+                time.sleep(delay)
+                # Regenerate TOTP for next attempt
+                payload["totp"] = pyotp.TOTP(totp_secret).now()
+                continue
             exit()
-    except requests.exceptions.HTTPError as e:
-        print(f"❌ HTTP error during login: {str(e)}")
-        print(f"Status code: {response.status_code}, Response text: {response.text}")
-        exit()
-    except Exception as e:
-        print(f"❌ Login failed: {str(e)}")
-        exit()
+    
+    print(f"❌ Failed to login after {retries} attempts")
+    exit()
 
 # Fetch Data for Gainers/Losers and OI BuildUp (POST request)
 def fetch_post_data(api_obj, endpoint, datatype, expirytype="NEAR", retries=2, delay=2):
@@ -92,10 +122,8 @@ def fetch_post_data(api_obj, endpoint, datatype, expirytype="NEAR", retries=2, d
         "Accept": "application/json",
         "X-UserType": "USER",
         "X-SourceID": "WEB",
-        "X-ClientLocalIP": getattr(api_obj, '_client_local_ip', "127.0.0.1"),
-        "X-ClientPublicIP": getattr(api_obj, '_client_public_ip', "127.0.0.1"),
-        "X-MACAddress": getattr(api_obj, '_mac_address', "00:00:00:00:00:00"),
-        "X-PrivateKey": os.getenv('API_KEY')
+        "X-PrivateKey": os.getenv('API_KEY'),
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
     }
     payload = {
         "datatype": datatype,
@@ -146,10 +174,8 @@ def fetch_pcr_volume(api_obj, retries=2, delay=2):
         "Accept": "application/json",
         "X-UserType": "USER",
         "X-SourceID": "WEB",
-        "X-ClientLocalIP": getattr(api_obj, '_client_local_ip', "127.0.0.1"),
-        "X-ClientPublicIP": getattr(obj, '_client_public_ip', "127.0.0.1"),
-        "X-MACAddress": getattr(obj, '_mac_address', "00:00:00:00:00:00"),
-        "X-PrivateKey": os.getenv('API_KEY')
+        "X-PrivateKey": os.getenv('API_KEY'),
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
     }
 
     for attempt in range(retries + 1):
