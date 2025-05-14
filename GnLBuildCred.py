@@ -174,7 +174,7 @@ def fetch_pcr_volume(api_obj, retries=2, delay=2):
             print(f"❌ Error fetching PCR Volume (putCallRatio) (Attempt {attempt + 1}/{retries + 1}): {str(e)}")
             return pd.DataFrame()
     
-    print(f"❌ Failed to fetch PCR Volume (putCallRatio) after {retries + 1) attempts")
+    print(f"❌ Failed to fetch PCR Volume (putCallRatio) after {retries + 1} attempts")
     return pd.DataFrame()
 
 # Main Execution
