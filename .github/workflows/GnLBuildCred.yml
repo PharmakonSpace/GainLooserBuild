@@ -38,6 +38,7 @@ jobs:
           echo "API_KEY=${{ secrets.API_KEY }}" >> $GITHUB_ENV
           echo "TOKEN_MAP=${{ secrets.TOKEN_MAP }}" >> $GITHUB_ENV
           echo "FEED_TOKEN=${{ secrets.FEED_TOKEN }}" >> $GITHUB_ENV
+          echo "MPIN=${{ secrets.MPIN }}" >> $GITHUB_ENV
           echo "SHEET_ID=${{ secrets.SHEET_ID }}" >> $GITHUB_ENV
 
       - name: Debug TOTP Key
@@ -46,7 +47,7 @@ jobs:
            echo "TOTP_KEY (masked): ${TOTP_KEY:0:4}******"
 
       - name: Debug environment variables
-        run: env | grep -E 'USER_NAME|PWD|TOTP_SECRET|API_KEY|TOKEN_MAP|FEED_TOKEN|SHEET_ID'
+        run: env | grep -E 'USER_NAME|PWD|TOTP_SECRET|API_KEY|TOKEN_MAP|FEED_TOKEN|MPIN'
 
       - name: Debug dependency tree
         run: |
