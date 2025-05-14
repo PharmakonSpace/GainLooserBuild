@@ -65,7 +65,7 @@ jobs:
       - name: Run login script
         env:
           GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
-        run: python AngelFut.py
+        run: python GnLbuildCred.py
    
       - name: Configure Git
         run: |
