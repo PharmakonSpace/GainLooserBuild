@@ -15,7 +15,7 @@ def initialize_api(retries=3, delay=2):
     # Fetch credentials from environment variables
     api_key = os.getenv('API_KEY')
     user_name = os.getenv('USER_NAME')
-    password = os.getenv('PASSWORD')
+    password = os.getenv('MPIN')
     totp_secret = os.getenv('TOTP_SECRET')
 
     # Debug: Print loaded credentials
