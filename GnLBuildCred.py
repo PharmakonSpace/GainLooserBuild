@@ -1,4 +1,4 @@
-from SmartApi import SmartConnect
+from smartapi import SmartConnect
 import pandas as pd
 import requests
 import pyotp
@@ -14,17 +14,17 @@ load_dotenv()
 # Initialize logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Initialize SmartConnect
+# Initialize SmartConnect with MPIN Login
 def initialize_api():
     # Fetch credentials from .env
     api_key = os.getenv('API_KEY')
     user_name = os.getenv('USER_NAME')
-    pwd = os.getenv('PWD')
+    mpin = os.getenv('MPIN')
     totp_secret = os.getenv('TOTP_SECRET')
 
     # Validate credentials
-    if not all([api_key, user_name, pwd, totp_secret]):
-        print("❌ Missing credentials in .env file. Please set API_KEY, USER_NAME, PWD, and TOTP_SECRET.")
+    if not all([api_key, user_name, mpin, totp_secret]):
+        print("❌ Missing credentials in .env file. Please set API_KEY, USER_NAME, MPIN, and TOTP_SECRET.")
         exit()
 
     try:
@@ -33,12 +33,37 @@ def initialize_api():
         print(f"❌ Error generating TOTP: {str(e)}")
         exit()
 
+    # Initialize SmartConnect (for headers and session management)
     obj = SmartConnect(api_key=api_key)
+    
+    # Custom loginByMPin request
+    url = "https://apiconnect.angelone.in/rest/auth/angelbroking/user/v1/loginByMPin"
+    headers = {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "X-UserType": "USER",
+        "X-SourceID": "WEB",
+        "X-ClientLocalIP": getattr(obj, '_client_local_ip', "127.0.0.1"),
+        "X-ClientPublicIP": getattr(obj, '_client_public_ip', "127.0.0.1"),
+        "X-MACAddress": getattr(obj, '_mac_address', "00:00:00:00:00:00"),
+        "X-PrivateKey": api_key
+    }
+    payload = {
+        "clientcode": user_name,
+        "mpin": mpin,
+        "totp": totp
+    }
+
     try:
-        data = obj.generateSession(user_name, pwd, totp)
+        response = requests.post(url, json=payload, headers=headers)
+        response.raise_for_status()
+        data = response.json()
+        
         if data.get('status') and data.get('data', {}).get('jwtToken'):
             print("✅ API session initialized successfully.")
             print(f"Session response: {json.dumps(data, indent=2)}")
+            # Manually set access_token in SmartConnect object
+            obj.access_token = data['data']['jwtToken']
             return obj
         else:
             print(f"❌ Login failed: {data.get('message', 'Unknown error')}")
@@ -149,7 +174,7 @@ def fetch_pcr_volume(api_obj, retries=2, delay=2):
             print(f"❌ Error fetching PCR Volume (putCallRatio) (Attempt {attempt + 1}/{retries + 1}): {str(e)}")
             return pd.DataFrame()
     
-    print(f"❌ Failed to fetch PCR Volume (putCallRatio) after {retries + 1} attempts")
+    print(f"❌ Failed to fetch PCR Volume (putCallRatio) after {retries + 1) attempts")
     return pd.DataFrame()
 
 # Main Execution
