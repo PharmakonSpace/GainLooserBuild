@@ -104,8 +104,8 @@ SUPREMEIND28OCT25FUT,1.62,52522,,,PercPriceGainers,FAR,gainersLosers,4659.2,74.1
 AMBUJACEM28OCT25FUT,-2.2,52179,,,PercPriceLosers,FAR,gainersLosers,582.8,-13.1,
 ASIANPAINT28OCT25FUT,-2.22,52216,,,PercPriceLosers,FAR,gainersLosers,2533.4,-57.6,
 HEROMOTOCO28OCT25FUT,-2.23,52366,,,PercPriceLosers,FAR,gainersLosers,4984.0,-113.8,
-ADANIENT28OCT25FUT,-2.36,52174,,,PercPriceLosers,FAR,gainersLosers,2348.0,-56.8,
 MAZDOCK28OCT25FUT,-2.36,52456,,,PercPriceLosers,FAR,gainersLosers,2727.0,-66.0,
+ADANIENT28OCT25FUT,-2.36,52174,,,PercPriceLosers,FAR,gainersLosers,2348.0,-56.8,
 GRASIM28OCT25FUT,-2.5,52351,,,PercPriceLosers,FAR,gainersLosers,2842.6,-72.8,
 COLPAL28OCT25FUT,-2.51,52310,,,PercPriceLosers,FAR,gainersLosers,2319.5,-59.7,
 ICICIGI28OCT25FUT,-2.68,52375,,,PercPriceLosers,FAR,gainersLosers,1937.7,-53.3,
@@ -247,57 +247,6 @@ BHARTIARTL28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.35
 BHEL28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.49
 BIOCON28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.54
 BLUESTARCO28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.2
-NIFTYNXT5028AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.29
-NMDC28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
-NTPC28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.04
-NUVAMA28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.52
-NYKAA28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.52
-OBEROIRLTY28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.74
-OFSS28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.9
-OIL28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.62
-ONGC28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.52
-PAGEIND28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.51
-PATANJALI28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.28
-PAYTM28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.47
-PERSISTENT28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.35
-PETRONET28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.73
-PFC28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.68
-PGEL28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.25
-PHOENIXLTD28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.31
-PIDILITIND28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.69
-PIIND28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.24
-PNB28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.5
-PNBHOUSING28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.32
-POLICYBZR28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.42
-POLYCAB28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.49
-POONAWALLA28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.3
-POWERGRID28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.67
-PPLPHARMA28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.31
-PRESTIGE28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.26
-RBLBANK28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.39
-RECLTD28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.47
-RELIANCE28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.62
-RVNL28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.5
-SAIL28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.4
-SBICARD28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.51
-SBILIFE28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.82
-SBIN28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.49
-SHREECEM28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.0
-SHRIRAMFIN28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.45
-SIEMENS28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.51
-SJVN28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.31
-SOLARINDS28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.32
-SONACOMS28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
-SRF28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.29
-SUNPHARMA28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.5
-SUPREMEIND28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.3
-SUZLON28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.24
-SYNGENE28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.54
-TATACHEM28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.19
-TATACONSUM28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.58
-TATAELXSI28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.59
-TATAMOTORS28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.59
-TATAPOWER28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.56
 BOSCHLTD28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.41
 BPCL28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.51
 BRITANNIA28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.54
@@ -432,3 +381,54 @@ WIPRO28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.48
 YESBANK28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.32
 ZYDUSLIFE28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.31
 328AUG2528AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.33
+NIFTYNXT5028AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.29
+NMDC28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
+NTPC28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.04
+NUVAMA28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.52
+NYKAA28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.52
+OBEROIRLTY28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.74
+OFSS28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.9
+OIL28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.62
+ONGC28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.52
+PAGEIND28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.51
+PATANJALI28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.28
+PAYTM28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.47
+PERSISTENT28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.35
+PETRONET28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.73
+PFC28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.68
+PGEL28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.25
+PHOENIXLTD28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.31
+PIDILITIND28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.69
+PIIND28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.24
+PNB28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.5
+PNBHOUSING28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.32
+POLICYBZR28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.42
+POLYCAB28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.49
+POONAWALLA28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.3
+POWERGRID28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.67
+PPLPHARMA28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.31
+PRESTIGE28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.26
+RBLBANK28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.39
+RECLTD28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.47
+RELIANCE28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.62
+RVNL28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.5
+SAIL28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.4
+SBICARD28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.51
+SBILIFE28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.82
+SBIN28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.49
+SHREECEM28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.0
+SHRIRAMFIN28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.45
+SIEMENS28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.51
+SJVN28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.31
+SOLARINDS28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.32
+SONACOMS28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
+SRF28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.29
+SUNPHARMA28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.5
+SUPREMEIND28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.3
+SUZLON28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.24
+SYNGENE28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.54
+TATACHEM28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.19
+TATACONSUM28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.58
+TATAELXSI28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.59
+TATAMOTORS28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.59
+TATAPOWER28AUG25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.56
