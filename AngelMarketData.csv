@@ -1,86 +1,86 @@
 tradingSymbol,percentChange,symbolToken,opnInterest,netChangeOpnInterest,DataType,ExpiryType,Endpoint,ltp,netChange,pcr
-TORNTPHARM,26.78,53902,1028500,217250.0,PercOIGainers,NEAR,gainersLosers,,,
-MARICO,24.65,53492,10042800,1986000.0,PercOIGainers,NEAR,gainersLosers,,,
-NESTLEIND,23.91,53720,7447500,1437000.0,PercOIGainers,NEAR,gainersLosers,,,
-SBILIFE,23.81,53812,3365250,647250.0,PercOIGainers,NEAR,gainersLosers,,,
-JINDALSTEL,23.67,53243,5833125,1116250.0,PercOIGainers,NEAR,gainersLosers,,,
-CIPLA,20.25,53069,4939125,831750.0,PercOIGainers,NEAR,gainersLosers,,,
-PIDILITIND,20.23,53769,3607500,607000.0,PercOIGainers,NEAR,gainersLosers,,,
-POWERGRID,18.89,53792,36814400,5848200.0,PercOIGainers,NEAR,gainersLosers,,,
-SUNPHARMA,17.62,53839,7946050,1190350.0,PercOIGainers,NEAR,gainersLosers,,,
-PHOENIXLTD,16.99,53766,2236850,324800.0,PercOIGainers,NEAR,gainersLosers,,,
-INOXWIND,-22.0,53233,16274928,-4590616.0,PercOILosers,NEAR,gainersLosers,,,
-BIOCON,-22.89,53057,10125000,-3005000.0,PercOILosers,NEAR,gainersLosers,,,
-PGEL,-24.47,53765,2843400,-921200.0,PercOILosers,NEAR,gainersLosers,,,
-AMBER,-25.15,53031,114900,-38600.0,PercOILosers,NEAR,gainersLosers,,,
-LAURUSLABS,-26.34,53362,4567900,-1633700.0,PercOILosers,NEAR,gainersLosers,,,
-PATANJALI,-26.37,53754,8166600,-2925000.0,PercOILosers,NEAR,gainersLosers,,,
-IGL,-27.68,53200,5123250,-1960750.0,PercOILosers,NEAR,gainersLosers,,,
-IRFC,-27.95,53239,14067500,-5457000.0,PercOILosers,NEAR,gainersLosers,,,
-INDIANB,-29.68,53205,1455000,-614000.0,PercOILosers,NEAR,gainersLosers,,,
-TITAGARH,-31.86,53900,1737825,-812725.0,PercOILosers,NEAR,gainersLosers,,,
-SAMMAANCAP,8.78,49081,,,PercPriceGainers,NEAR,gainersLosers,149.9,12.19,
-PETRONET,3.66,53758,,,PercPriceGainers,NEAR,gainersLosers,276.45,9.75,
-BPCL,3.36,53060,,,PercPriceGainers,NEAR,gainersLosers,335.1,10.9,
-HINDPETRO,3.23,53176,,,PercPriceGainers,NEAR,gainersLosers,436.65,13.65,
-BANDHANBNK,2.87,53047,,,PercPriceGainers,NEAR,gainersLosers,159.88,4.46,
-HINDZINC,2.74,53186,,,PercPriceGainers,NEAR,gainersLosers,460.8,12.3,
-NCC,2.56,53715,,,PercPriceGainers,NEAR,gainersLosers,207.76,5.18,
-IIFL,2.53,53203,,,PercPriceGainers,NEAR,gainersLosers,430.2,10.6,
-IREDA,2.53,53238,,,PercPriceGainers,NEAR,gainersLosers,149.75,3.69,
-IOC,2.18,53234,,,PercPriceGainers,NEAR,gainersLosers,148.39,3.17,
-AUBANK,-1.19,53041,,,PercPriceLosers,NEAR,gainersLosers,736.0,-8.9,
-PGEL,-1.28,53765,,,PercPriceLosers,NEAR,gainersLosers,508.8,-7.15,
-SOLARINDS,-1.46,53836,,,PercPriceLosers,NEAR,gainersLosers,13563.0,-201.0,
-AMBER,-1.62,53031,,,PercPriceLosers,NEAR,gainersLosers,7983.0,-131.5,
-ADANIGREEN,-1.7,53016,,,PercPriceLosers,NEAR,gainersLosers,1031.0,-17.85,
-AXISBANK,-2.07,53043,,,PercPriceLosers,NEAR,gainersLosers,1129.5,-23.9,
-KALYANKJIL,-2.58,53282,,,PercPriceLosers,NEAR,gainersLosers,443.6,-11.75,
-KAYNES,-2.92,53283,,,PercPriceLosers,NEAR,gainersLosers,7128.0,-214.5,
-MAZDOCK,-2.95,53704,,,PercPriceLosers,NEAR,gainersLosers,2748.0,-83.4,
-DIXON,-3.92,53135,,,PercPriceLosers,NEAR,gainersLosers,16824.0,-686.0,
-SAMMAANCAP,151.17,49082,82912600,49901500.0,PercOIGainers,NEXT,gainersLosers,,,
-HINDPETRO,47.39,52369,35413200,11386575.0,PercOIGainers,NEXT,gainersLosers,,,
-CYIENT,38.37,52316,2275875,631125.0,PercOIGainers,NEXT,gainersLosers,,,
-TATASTEEL,36.43,52534,132847000,35475000.0,PercOIGainers,NEXT,gainersLosers,,,
-TECHM,36.21,52542,11724600,3117000.0,PercOIGainers,NEXT,gainersLosers,,,
-APOLLOHOSP,34.41,52214,1888000,483375.0,PercOIGainers,NEXT,gainersLosers,,,
-MANKIND,33.77,52449,1302075,328725.0,PercOIGainers,NEXT,gainersLosers,,,
-BRITANNIA,32.26,52292,2685875,655125.0,PercOIGainers,NEXT,gainersLosers,,,
-TITAN,31.81,52545,8872150,2141125.0,PercOIGainers,NEXT,gainersLosers,,,
-NESTLEIND,30.95,52466,15317500,3620000.0,PercOIGainers,NEXT,gainersLosers,,,
-RBLBANK,-0.53,52507,65522475,-352425.0,PercOILosers,NEXT,gainersLosers,,,
-SAMMAANCAP,8.99,49082,,,PercPriceGainers,NEXT,gainersLosers,150.8,12.44,
-PETRONET,3.62,52494,,,PercPriceGainers,NEXT,gainersLosers,277.95,9.7,
-BPCL,3.36,52291,,,PercPriceGainers,NEXT,gainersLosers,336.9,10.95,
-HINDPETRO,3.25,52369,,,PercPriceGainers,NEXT,gainersLosers,439.05,13.8,
-BANDHANBNK,3.2,52255,,,PercPriceGainers,NEXT,gainersLosers,160.85,4.99,
-HINDZINC,2.79,52371,,,PercPriceGainers,NEXT,gainersLosers,463.45,12.6,
-IIFL,2.46,52383,,,PercPriceGainers,NEXT,gainersLosers,432.45,10.4,
-IREDA,2.45,52410,,,PercPriceGainers,NEXT,gainersLosers,147.78,3.54,
-NCC,2.3,52465,,,PercPriceGainers,NEXT,gainersLosers,208.37,4.68,
-IOC,2.14,52406,,,PercPriceGainers,NEXT,gainersLosers,149.12,3.13,
-SUPREMEIND,-1.19,52522,,,PercPriceLosers,NEXT,gainersLosers,4210.1,-50.8,
-SOLARINDS,-1.34,52518,,,PercPriceLosers,NEXT,gainersLosers,13649.0,-185.0,
-PGEL,-1.51,52496,,,PercPriceLosers,NEXT,gainersLosers,510.55,-7.85,
-ADANIGREEN,-1.78,52175,,,PercPriceLosers,NEXT,gainersLosers,1036.1,-18.8,
-AMBER,-1.95,52178,,,PercPriceLosers,NEXT,gainersLosers,7933.0,-157.5,
-AXISBANK,-2.06,52223,,,PercPriceLosers,NEXT,gainersLosers,1135.6,-23.9,
-KALYANKJIL,-2.59,52424,,,PercPriceLosers,NEXT,gainersLosers,445.9,-11.85,
-MAZDOCK,-2.81,52456,,,PercPriceLosers,NEXT,gainersLosers,2764.9,-79.9,
-KAYNES,-2.94,52425,,,PercPriceLosers,NEXT,gainersLosers,7160.5,-217.0,
-DIXON,-3.93,52327,,,PercPriceLosers,NEXT,gainersLosers,16909.0,-691.0,
-ADANIPORTS,66.99,39029,406125,162925.0,PercOIGainers,FAR,gainersLosers,,,
-IRCTC,49.69,48799,856625,284375.0,PercOIGainers,FAR,gainersLosers,,,
-TECHM,48.96,49126,602400,198000.0,PercOIGainers,FAR,gainersLosers,,,
+TORNTPHARM,27.3,53902,1032750,221500.0,PercOIGainers,NEAR,gainersLosers,,,
+SBILIFE,26.75,53812,3445125,727125.0,PercOIGainers,NEAR,gainersLosers,,,
+CIPLA,26.31,53069,5188125,1080750.0,PercOIGainers,NEAR,gainersLosers,,,
+MARICO,26.21,53492,10168800,2112000.0,PercOIGainers,NEAR,gainersLosers,,,
+NESTLEIND,24.99,53720,7512500,1502000.0,PercOIGainers,NEAR,gainersLosers,,,
+JINDALSTEL,24.83,53243,5888125,1171250.0,PercOIGainers,NEAR,gainersLosers,,,
+PIDILITIND,21.53,53769,3646500,646000.0,PercOIGainers,NEAR,gainersLosers,,,
+POWERGRID,20.79,53792,37405300,6439100.0,PercOIGainers,NEAR,gainersLosers,,,
+SUNPHARMA,20.7,53839,8153950,1398250.0,PercOIGainers,NEAR,gainersLosers,,,
+APOLLOHOSP,17.47,53036,1658000,246625.0,PercOIGainers,NEAR,gainersLosers,,,
+INOXWIND,-22.97,53233,16072064,-4793480.0,PercOILosers,NEAR,gainersLosers,,,
+BIOCON,-24.09,53057,9967500,-3162500.0,PercOILosers,NEAR,gainersLosers,,,
+AMBER,-25.73,53031,114000,-39500.0,PercOILosers,NEAR,gainersLosers,,,
+PGEL,-27.31,53765,2736300,-1028300.0,PercOILosers,NEAR,gainersLosers,,,
+LAURUSLABS,-27.69,53362,4484600,-1717000.0,PercOILosers,NEAR,gainersLosers,,,
+PATANJALI,-27.99,53754,7987500,-3104100.0,PercOILosers,NEAR,gainersLosers,,,
+IRFC,-28.19,53239,14020750,-5503750.0,PercOILosers,NEAR,gainersLosers,,,
+IGL,-28.73,53200,5049000,-2035000.0,PercOILosers,NEAR,gainersLosers,,,
+INDIANB,-32.38,53205,1399000,-670000.0,PercOILosers,NEAR,gainersLosers,,,
+TITAGARH,-34.34,53900,1674750,-875800.0,PercOILosers,NEAR,gainersLosers,,,
+SAMMAANCAP,9.27,49081,,,PercPriceGainers,NEAR,gainersLosers,150.48,12.77,
+HINDPETRO,4.18,53176,,,PercPriceGainers,NEAR,gainersLosers,440.7,17.7,
+PETRONET,4.09,53758,,,PercPriceGainers,NEAR,gainersLosers,277.6,10.9,
+BPCL,3.79,53060,,,PercPriceGainers,NEAR,gainersLosers,336.5,12.3,
+BANDHANBNK,3.0,53047,,,PercPriceGainers,NEAR,gainersLosers,160.08,4.66,
+HINDZINC,2.88,53186,,,PercPriceGainers,NEAR,gainersLosers,461.4,12.9,
+IIFL,2.73,53203,,,PercPriceGainers,NEAR,gainersLosers,431.05,11.45,
+IOC,2.6,53234,,,PercPriceGainers,NEAR,gainersLosers,149.0,3.78,
+BHARATFORG,2.49,53052,,,PercPriceGainers,NEAR,gainersLosers,1213.1,29.5,
+NCC,2.48,53715,,,PercPriceGainers,NEAR,gainersLosers,207.6,5.02,
+KOTAKBANK,-1.02,53360,,,PercPriceLosers,NEAR,gainersLosers,1975.3,-20.3,
+AMBER,-1.15,53031,,,PercPriceLosers,NEAR,gainersLosers,8021.5,-93.0,
+ADANIGREEN,-1.34,53016,,,PercPriceLosers,NEAR,gainersLosers,1034.8,-14.05,
+KALYANKJIL,-1.44,53282,,,PercPriceLosers,NEAR,gainersLosers,448.8,-6.55,
+SOLARINDS,-1.59,53836,,,PercPriceLosers,NEAR,gainersLosers,13545.0,-219.0,
+AXISBANK,-1.86,53043,,,PercPriceLosers,NEAR,gainersLosers,1132.0,-21.4,
+PGEL,-2.54,53765,,,PercPriceLosers,NEAR,gainersLosers,502.85,-13.1,
+KAYNES,-3.09,53283,,,PercPriceLosers,NEAR,gainersLosers,7115.5,-227.0,
+MAZDOCK,-3.17,53704,,,PercPriceLosers,NEAR,gainersLosers,2741.7,-89.7,
+DIXON,-4.47,53135,,,PercPriceLosers,NEAR,gainersLosers,16728.0,-782.0,
+SAMMAANCAP,150.94,49082,82839500,49828400.0,PercOIGainers,NEXT,gainersLosers,,,
+HINDPETRO,49.03,52369,35806050,11779425.0,PercOIGainers,NEXT,gainersLosers,,,
+BRITANNIA,40.63,52292,2855750,825000.0,PercOIGainers,NEXT,gainersLosers,,,
+CYIENT,39.43,52316,2293300,648550.0,PercOIGainers,NEXT,gainersLosers,,,
+TECHM,38.29,52542,11903400,3295800.0,PercOIGainers,NEXT,gainersLosers,,,
+APOLLOHOSP,38.23,52214,1941625,537000.0,PercOIGainers,NEXT,gainersLosers,,,
+TATASTEEL,37.61,52534,133996500,36624500.0,PercOIGainers,NEXT,gainersLosers,,,
+MANKIND,34.37,52449,1307925,334575.0,PercOIGainers,NEXT,gainersLosers,,,
+TITAN,33.56,52545,8990275,2259250.0,PercOIGainers,NEXT,gainersLosers,,,
+NESTLEIND,32.43,52466,15491500,3794000.0,PercOIGainers,NEXT,gainersLosers,,,
+RBLBANK,-0.54,52507,65516125,-358775.0,PercOILosers,NEXT,gainersLosers,,,
+SAMMAANCAP,9.42,49082,,,PercPriceGainers,NEXT,gainersLosers,151.39,13.03,
+HINDPETRO,4.19,52369,,,PercPriceGainers,NEXT,gainersLosers,443.05,17.8,
+PETRONET,3.95,52494,,,PercPriceGainers,NEXT,gainersLosers,278.85,10.6,
+BPCL,3.8,52291,,,PercPriceGainers,NEXT,gainersLosers,338.35,12.4,
+BANDHANBNK,3.16,52255,,,PercPriceGainers,NEXT,gainersLosers,160.79,4.93,
+HINDZINC,2.92,52371,,,PercPriceGainers,NEXT,gainersLosers,464.0,13.15,
+IIFL,2.7,52383,,,PercPriceGainers,NEXT,gainersLosers,433.45,11.4,
+IOC,2.55,52406,,,PercPriceGainers,NEXT,gainersLosers,149.72,3.73,
+GODREJPROP,2.45,52350,,,PercPriceGainers,NEXT,gainersLosers,2016.0,48.2,
+NCC,2.44,52465,,,PercPriceGainers,NEXT,gainersLosers,208.67,4.98,
+KOTAKBANK,-1.03,52430,,,PercPriceLosers,NEXT,gainersLosers,1986.0,-20.6,
+ADANIGREEN,-1.37,52175,,,PercPriceLosers,NEXT,gainersLosers,1040.45,-14.45,
+KALYANKJIL,-1.43,52424,,,PercPriceLosers,NEXT,gainersLosers,451.2,-6.55,
+SOLARINDS,-1.6,52518,,,PercPriceLosers,NEXT,gainersLosers,13613.0,-221.0,
+AMBER,-1.69,52178,,,PercPriceLosers,NEXT,gainersLosers,7954.0,-136.5,
+AXISBANK,-1.84,52223,,,PercPriceLosers,NEXT,gainersLosers,1138.2,-21.3,
+PGEL,-2.58,52496,,,PercPriceLosers,NEXT,gainersLosers,505.05,-13.35,
+MAZDOCK,-3.09,52456,,,PercPriceLosers,NEXT,gainersLosers,2756.8,-88.0,
+KAYNES,-3.11,52425,,,PercPriceLosers,NEXT,gainersLosers,7148.0,-229.5,
+DIXON,-4.43,52327,,,PercPriceLosers,NEXT,gainersLosers,16820.0,-780.0,
+ADANIPORTS,68.16,39029,408975,165775.0,PercOIGainers,FAR,gainersLosers,,,
+TECHM,52.08,49126,615000,210600.0,PercOIGainers,FAR,gainersLosers,,,
+IRCTC,50.76,48799,862750,290500.0,PercOIGainers,FAR,gainersLosers,,,
 DIXON,30.54,48627,26500,6200.0,PercOIGainers,FAR,gainersLosers,,,
+APLAPOLLO,27.5,44172,35700,7700.0,PercOIGainers,FAR,gainersLosers,,,
 SAMMAANCAP,27.5,49083,1315800,283800.0,PercOIGainers,FAR,gainersLosers,,,
-APLAPOLLO,26.25,44172,35350,7350.0,PercOIGainers,FAR,gainersLosers,,,
+PGEL,25.67,49061,164500,33600.0,PercOIGainers,FAR,gainersLosers,,,
+HUDCO,24.68,48700,546675,108225.0,PercOIGainers,FAR,gainersLosers,,,
 PIIND,24.59,49065,13300,2625.0,PercOIGainers,FAR,gainersLosers,,,
-HUDCO,24.05,48700,543900,105450.0,PercOIGainers,FAR,gainersLosers,,,
-HINDUNILVR,23.65,48694,260400,49800.0,PercOIGainers,FAR,gainersLosers,,,
-FORTIS,22.52,48637,210800,38750.0,PercOIGainers,FAR,gainersLosers,,,
-MARUTI,-1.08,48892,55150,-600.0,PercOILosers,FAR,gainersLosers,,,
+FORTIS,23.87,48637,213125,41075.0,PercOIGainers,FAR,gainersLosers,,,
+MARUTI,-0.9,48892,55250,-500.0,PercOILosers,FAR,gainersLosers,,,
 BRITANNIA,-1.09,48598,11375,-125.0,PercOILosers,FAR,gainersLosers,,,
 MANAPPURAM,-2.25,48888,261000,-6000.0,PercOILosers,FAR,gainersLosers,,,
 CGPOWER,-3.14,48605,209950,-6800.0,PercOILosers,FAR,gainersLosers,,,
@@ -90,332 +90,330 @@ UNOMINDA,-5.26,49140,9900,-550.0,PercOILosers,FAR,gainersLosers,,,
 PETRONET,-8.12,49059,387000,-34200.0,PercOILosers,FAR,gainersLosers,,,
 ADANIENSOL,-8.57,38316,172800,-16200.0,PercOILosers,FAR,gainersLosers,,,
 TORNTPHARM,-8.82,49132,7750,-750.0,PercOILosers,FAR,gainersLosers,,,
-SAMMAANCAP,9.17,49083,,,PercPriceGainers,FAR,gainersLosers,151.8,12.75,
-PETRONET,3.53,49059,,,PercPriceGainers,FAR,gainersLosers,279.0,9.5,
+SAMMAANCAP,9.31,49083,,,PercPriceGainers,FAR,gainersLosers,152.0,12.95,
+PETRONET,3.9,49059,,,PercPriceGainers,FAR,gainersLosers,280.0,10.5,
+BPCL,3.6,48597,,,PercPriceGainers,FAR,gainersLosers,339.5,11.8,
 HINDPETRO,3.35,48693,,,PercPriceGainers,FAR,gainersLosers,441.8,14.3,
-BPCL,3.17,48597,,,PercPriceGainers,FAR,gainersLosers,338.1,10.4,
-BANDHANBNK,3.17,48578,,,PercPriceGainers,FAR,gainersLosers,161.7,4.97,
-HINDZINC,3.15,48699,,,PercPriceGainers,FAR,gainersLosers,468.3,14.3,
-IREDA,2.51,48800,,,PercPriceGainers,FAR,gainersLosers,147.2,3.61,
-APLAPOLLO,2.28,44172,,,PercPriceGainers,FAR,gainersLosers,1714.5,38.3,
-IOC,2.19,48798,,,PercPriceGainers,FAR,gainersLosers,150.06,3.22,
-GODREJPROP,2.14,48642,,,PercPriceGainers,FAR,gainersLosers,2022.0,42.3,
-ADANIENT,-1.21,38317,,,PercPriceLosers,FAR,gainersLosers,2540.1,-31.2,
+BANDHANBNK,3.19,48578,,,PercPriceGainers,FAR,gainersLosers,161.73,5.0,
+HINDZINC,2.71,48699,,,PercPriceGainers,FAR,gainersLosers,466.3,12.3,
+IREDA,2.31,48800,,,PercPriceGainers,FAR,gainersLosers,146.91,3.32,
+NCC,2.28,48920,,,PercPriceGainers,FAR,gainersLosers,209.54,4.68,
+GODREJPROP,2.26,48642,,,PercPriceGainers,FAR,gainersLosers,2024.5,44.8,
+INDUSINDBK,2.25,48751,,,PercPriceGainers,FAR,gainersLosers,735.0,16.2,
+TATACONSUM,-1.13,49097,,,PercPriceLosers,FAR,gainersLosers,1120.0,-12.8,
 ADANIGREEN,-1.4,39028,,,PercPriceLosers,FAR,gainersLosers,1047.0,-14.9,
-AUBANK,-1.43,46472,,,PercPriceLosers,FAR,gainersLosers,739.0,-10.75,
-SOLARINDS,-1.44,49090,,,PercPriceLosers,FAR,gainersLosers,13715.0,-201.0,
-AMBER,-1.7,39031,,,PercPriceLosers,FAR,gainersLosers,7974.5,-137.5,
-AXISBANK,-2.08,46477,,,PercPriceLosers,FAR,gainersLosers,1142.0,-24.3,
-KALYANKJIL,-2.76,48840,,,PercPriceLosers,FAR,gainersLosers,448.5,-12.75,
-KAYNES,-2.79,48850,,,PercPriceLosers,FAR,gainersLosers,7200.0,-207.0,
-MAZDOCK,-2.9,48897,,,PercPriceLosers,FAR,gainersLosers,2768.1,-82.8,
-DIXON,-3.95,48627,,,PercPriceLosers,FAR,gainersLosers,16989.0,-698.0,
-BPCL,3.36,53060,14016.58,1817.0,Long Built Up,NEAR,OIBuildup,335.1,10.9,
-HINDPETRO,3.31,53176,29415.15,3719.93,Long Built Up,NEAR,OIBuildup,437.0,14.0,
-HINDZINC,2.74,53186,15229.2,1329.13,Long Built Up,NEAR,OIBuildup,460.8,12.3,
-IOC,2.18,53234,30385.88,1433.25,Long Built Up,NEAR,OIBuildup,148.39,3.17,
-GODREJPROP,2.15,53163,2971.93,20.35,Long Built Up,NEAR,OIBuildup,1998.7,42.0,
-CANBK,1.76,53064,69518.25,2787.75,Long Built Up,NEAR,OIBuildup,120.32,2.08,
-TITAN,1.49,53901,4740.93,394.63,Long Built Up,NEAR,OIBuildup,3382.5,49.5,
-PFC,1.37,53759,16857.1,209.3,Long Built Up,NEAR,OIBuildup,402.5,5.45,
-VEDL,1.26,53921,25171.2,976.35,Long Built Up,NEAR,OIBuildup,453.7,5.65,
-OIL,1.16,53751,4935.0,428.4,Long Built Up,NEAR,OIBuildup,415.05,4.75,
-AXISBANK,-2.07,53043,26801.88,88.75,Short Built Up,NEAR,OIBuildup,1129.5,-23.9,
-SOLARINDS,-1.46,53836,405.75,34.35,Short Built Up,NEAR,OIBuildup,13563.0,-201.0,
-LT,-1.09,53400,5647.43,218.05,Short Built Up,NEAR,OIBuildup,3694.7,-40.6,
-PIDILITIND,-1.0,53769,3607.5,607.0,Short Built Up,NEAR,OIBuildup,1462.6,-14.7,
-KOTAKBANK,-0.94,53360,13122.8,422.4,Short Built Up,NEAR,OIBuildup,1976.9,-18.7,
-BOSCHLTD,-0.87,53059,94.45,4.1,Short Built Up,NEAR,OIBuildup,37785.0,-330.0,
-TORNTPOWER,-0.74,53906,1933.88,181.88,Short Built Up,NEAR,OIBuildup,1222.9,-9.1,
-TVSMOTOR,-0.67,53911,4222.05,265.3,Short Built Up,NEAR,OIBuildup,3394.7,-22.9,
-ADANIPORTS,-0.64,53020,9709.48,576.18,Short Built Up,NEAR,OIBuildup,1382.7,-8.9,
-POWERGRID,-0.57,53792,36814.4,5848.2,Short Built Up,NEAR,OIBuildup,280.65,-1.6,
-PETRONET,3.66,53758,8238.6,0.0,Short Covering,NEAR,OIBuildup,276.45,9.75,
-NCC,2.56,53715,7419.6,-1436.4,Short Covering,NEAR,OIBuildup,207.76,5.18,
-IIFL,2.53,53203,5152.95,-767.25,Short Covering,NEAR,OIBuildup,430.2,10.6,
-BANKINDIA,2.03,53049,16177.2,-1752.4,Short Covering,NEAR,OIBuildup,118.67,2.36,
-IGL,1.98,53200,5123.25,-1960.75,Short Covering,NEAR,OIBuildup,206.45,4.0,
-INDUSINDBK,1.88,53230,18920.3,-392.7,Short Covering,NEAR,OIBuildup,726.25,13.4,
-VOLTAS,1.87,53923,3730.5,-0.75,Short Covering,NEAR,OIBuildup,1356.9,24.9,
-GAIL,1.83,53159,39790.8,-1187.55,Short Covering,NEAR,OIBuildup,175.05,3.14,
-APLAPOLLO,1.8,53034,1958.95,-350.7,Short Covering,NEAR,OIBuildup,1694.9,29.9,
-HFCL,1.78,53174,37977.6,-5160.0,Short Covering,NEAR,OIBuildup,73.37,1.28,
-PGEL,-1.29,53765,2843.4,-921.2,Long Unwinding,NEAR,OIBuildup,509.3,-6.65,
-PERSISTENT,-1.17,53757,1185.6,-36.4,Long Unwinding,NEAR,OIBuildup,4895.5,-58.0,
-KEI,-1.12,53285,422.63,-7.18,Long Unwinding,NEAR,OIBuildup,4014.1,-45.3,
-ADANIENT,-1.07,53015,4015.8,-562.8,Long Unwinding,NEAR,OIBuildup,2517.1,-27.3,
-SUPREMEIND,-1.07,53840,545.3,-75.43,Long Unwinding,NEAR,OIBuildup,4199.9,-45.6,
-FEDERALBNK,-0.96,53152,32495.0,-400.0,Long Unwinding,NEAR,OIBuildup,189.91,-1.84,
-MARUTI,-0.9,53493,2106.5,-93.3,Long Unwinding,NEAR,OIBuildup,16061.0,-146.0,
-HEROMOTOCO,-0.82,53173,1615.35,-83.55,Long Unwinding,NEAR,OIBuildup,5290.0,-43.5,
-DRREDDY,-0.82,53139,4739.38,-1100.0,Long Unwinding,NEAR,OIBuildup,1242.5,-10.3,
-TATACHEM,-0.7,53852,3999.45,-375.05,Long Unwinding,NEAR,OIBuildup,925.0,-6.55,
-PETRONET,3.54,52494,34542.0,3281.4,Long Built Up,NEXT,OIBuildup,277.75,9.5,
-BPCL,3.36,52291,28862.65,5891.43,Long Built Up,NEXT,OIBuildup,336.9,10.95,
-HINDPETRO,3.27,52369,35413.2,11386.58,Long Built Up,NEXT,OIBuildup,439.15,13.9,
-HINDZINC,2.71,52371,24284.4,4343.85,Long Built Up,NEXT,OIBuildup,463.05,12.2,
-IIFL,2.46,52383,11150.7,1915.65,Long Built Up,NEXT,OIBuildup,432.45,10.4,
-NCC,2.3,52465,11561.4,1911.6,Long Built Up,NEXT,OIBuildup,208.37,4.68,
-IOC,2.16,52406,64584.0,11412.38,Long Built Up,NEXT,OIBuildup,149.14,3.15,
-BANKINDIA,2.05,52266,45650.8,5012.8,Long Built Up,NEXT,OIBuildup,119.28,2.4,
-GODREJPROP,2.04,52350,7565.8,1103.85,Long Built Up,NEXT,OIBuildup,2008.0,40.2,
-INDUSINDBK,2.04,52394,43388.8,5893.3,Long Built Up,NEXT,OIBuildup,730.0,14.6,
-AXISBANK,-2.06,52223,77766.25,12433.13,Short Built Up,NEXT,OIBuildup,1135.6,-23.9,
-SOLARINDS,-1.51,52518,557.85,107.25,Short Built Up,NEXT,OIBuildup,13625.0,-209.0,
-PGEL,-1.42,52496,6507.9,1420.3,Short Built Up,NEXT,OIBuildup,511.05,-7.35,
-SUPREMEIND,-1.19,52522,1012.9,128.1,Short Built Up,NEXT,OIBuildup,4210.1,-50.8,
-PERSISTENT,-1.1,52493,2140.3,298.1,Short Built Up,NEXT,OIBuildup,4922.0,-54.5,
-LT,-1.06,52442,13805.58,1590.05,Short Built Up,NEXT,OIBuildup,3715.5,-39.8,
-ADANIENT,-1.03,52174,10853.4,1244.1,Short Built Up,NEXT,OIBuildup,2530.8,-26.4,
-FEDERALBNK,-0.98,52340,75160.0,10175.0,Short Built Up,NEXT,OIBuildup,190.85,-1.89,
-KEI,-0.92,52428,979.65,139.65,Short Built Up,NEXT,OIBuildup,4041.4,-37.7,
-KOTAKBANK,-0.92,52430,31027.6,5032.4,Short Built Up,NEXT,OIBuildup,1988.1,-18.5,
-IDEA,1.48,52379,3808688.33,0.0,Short Covering,NEXT,OIBuildup,8.21,0.12,
+SOLARINDS,-1.49,49090,,,PercPriceLosers,FAR,gainersLosers,13708.0,-208.0,
+KALYANKJIL,-1.68,48840,,,PercPriceLosers,FAR,gainersLosers,453.5,-7.75,
+AXISBANK,-2.11,46477,,,PercPriceLosers,FAR,gainersLosers,1141.7,-24.6,
+PGEL,-2.43,49061,,,PercPriceLosers,FAR,gainersLosers,509.0,-12.7,
+AMBER,-2.49,39031,,,PercPriceLosers,FAR,gainersLosers,7910.0,-202.0,
+KAYNES,-3.0,48850,,,PercPriceLosers,FAR,gainersLosers,7185.0,-222.0,
+MAZDOCK,-3.08,48897,,,PercPriceLosers,FAR,gainersLosers,2763.0,-87.9,
+DIXON,-4.45,48627,,,PercPriceLosers,FAR,gainersLosers,16900.0,-787.0,
+HINDPETRO,4.18,53176,29536.65,3841.43,Long Built Up,NEAR,OIBuildup,440.7,17.7,
+PETRONET,4.07,53758,8244.0,5.4,Long Built Up,NEAR,OIBuildup,277.55,10.85,
+BPCL,3.79,53060,13996.83,1797.25,Long Built Up,NEAR,OIBuildup,336.5,12.3,
+HINDZINC,2.88,53186,15302.7,1402.63,Long Built Up,NEAR,OIBuildup,461.4,12.9,
+IOC,2.6,53234,30546.75,1594.13,Long Built Up,NEAR,OIBuildup,149.0,3.78,
+GODREJPROP,2.52,53163,3000.53,48.95,Long Built Up,NEAR,OIBuildup,2006.0,49.3,
+CANBK,1.75,53064,70011.0,3280.5,Long Built Up,NEAR,OIBuildup,120.31,2.07,
+OIL,1.67,53751,4914.0,407.4,Long Built Up,NEAR,OIBuildup,417.15,6.85,
+TITAN,1.67,53901,4773.65,427.35,Long Built Up,NEAR,OIBuildup,3388.5,55.5,
+VEDL,1.54,53921,25443.75,1248.9,Long Built Up,NEAR,OIBuildup,454.95,6.9,
+AXISBANK,-1.87,53043,26713.75,0.63,Short Built Up,NEAR,OIBuildup,1131.8,-21.6,
+SOLARINDS,-1.61,53836,409.05,37.65,Short Built Up,NEAR,OIBuildup,13542.0,-222.0,
+KOTAKBANK,-0.95,53360,13131.6,431.2,Short Built Up,NEAR,OIBuildup,1976.6,-19.0,
+LT,-0.86,53400,5580.57,151.2,Short Built Up,NEAR,OIBuildup,3703.0,-32.3,
+PIDILITIND,-0.85,53769,3646.5,646.0,Short Built Up,NEAR,OIBuildup,1464.7,-12.6,
+TORNTPOWER,-0.83,53906,1959.75,207.75,Short Built Up,NEAR,OIBuildup,1221.8,-10.2,
+ICICIBANK,-0.73,53188,37711.1,3576.3,Short Built Up,NEAR,OIBuildup,1351.8,-10.0,
+COALINDIA,-0.6,53071,25061.4,357.75,Short Built Up,NEAR,OIBuildup,386.5,-2.35,
+EICHERMOT,-0.55,53149,1884.93,82.25,Short Built Up,NEAR,OIBuildup,7000.5,-38.5,
+TVSMOTOR,-0.5,53911,4255.65,298.9,Short Built Up,NEAR,OIBuildup,3400.6,-17.0,
+IIFL,2.85,53203,5103.45,-816.75,Short Covering,NEAR,OIBuildup,431.55,11.95,
+BHARATFORG,2.61,53052,3018.0,-502.5,Short Covering,NEAR,OIBuildup,1214.5,30.9,
+NCC,2.48,53715,7427.7,-1428.3,Short Covering,NEAR,OIBuildup,207.6,5.02,
+IGL,2.32,53200,5049.0,-2035.0,Short Covering,NEAR,OIBuildup,207.15,4.7,
+VOLTAS,2.24,53923,3715.13,-16.13,Short Covering,NEAR,OIBuildup,1361.8,29.8,
+FORTIS,2.23,53154,2868.28,-29.45,Short Covering,NEAR,OIBuildup,953.2,20.75,
+BANKINDIA,2.18,53049,16073.2,-1856.4,Short Covering,NEAR,OIBuildup,118.85,2.54,
+INDUSINDBK,2.14,53230,18965.1,-347.9,Short Covering,NEAR,OIBuildup,728.1,15.25,
+APLAPOLLO,2.08,53034,1957.9,-351.75,Short Covering,NEAR,OIBuildup,1699.6,34.6,
+GAIL,2.05,53159,40014.45,-963.9,Short Covering,NEAR,OIBuildup,175.44,3.53,
+PGEL,-2.51,53765,2736.3,-1028.3,Long Unwinding,NEAR,OIBuildup,503.0,-12.95,
+MARUTI,-1.03,53493,2106.85,-92.95,Long Unwinding,NEAR,OIBuildup,16040.0,-167.0,
+KEI,-1.02,53285,427.0,-2.8,Long Unwinding,NEAR,OIBuildup,4018.0,-41.4,
+PERSISTENT,-0.89,53757,1188.0,-34.0,Long Unwinding,NEAR,OIBuildup,4909.5,-44.0,
+FEDERALBNK,-0.88,53152,32185.0,-710.0,Long Unwinding,NEAR,OIBuildup,190.07,-1.68,
+DRREDDY,-0.67,53139,4761.88,-1077.5,Long Unwinding,NEAR,OIBuildup,1244.4,-8.4,
+ADANIENT,-0.51,53015,3971.1,-607.5,Long Unwinding,NEAR,OIBuildup,2531.4,-13.0,
+HEROMOTOCO,-0.49,53173,1625.4,-73.5,Long Unwinding,NEAR,OIBuildup,5307.5,-26.0,
+CONCOR,-0.48,53104,8402.5,-1312.5,Long Unwinding,NEAR,OIBuildup,522.2,-2.5,
+SUPREMEIND,-0.46,53840,542.85,-77.88,Long Unwinding,NEAR,OIBuildup,4225.8,-19.7,
+HINDPETRO,4.17,52369,35883.0,11856.38,Long Built Up,NEXT,OIBuildup,443.0,17.75,
+PETRONET,4.01,52494,34657.2,3396.6,Long Built Up,NEXT,OIBuildup,279.0,10.75,
+BPCL,3.85,52291,29131.25,6160.03,Long Built Up,NEXT,OIBuildup,338.5,12.55,
+HINDZINC,2.92,52371,24424.05,4483.5,Long Built Up,NEXT,OIBuildup,464.0,13.15,
+IIFL,2.88,52383,11259.6,2024.55,Long Built Up,NEXT,OIBuildup,434.2,12.15,
+IOC,2.61,52406,64886.25,11714.63,Long Built Up,NEXT,OIBuildup,149.8,3.81,
+GODREJPROP,2.51,52350,7627.13,1165.18,Long Built Up,NEXT,OIBuildup,2017.2,49.4,
+NCC,2.4,52465,11655.9,2006.1,Long Built Up,NEXT,OIBuildup,208.57,4.88,
+INDUSINDBK,2.31,52394,43572.9,6077.4,Long Built Up,NEXT,OIBuildup,731.95,16.55,
+FORTIS,2.28,52341,6887.43,1529.85,Long Built Up,NEXT,OIBuildup,958.75,21.35,
+PGEL,-2.37,52496,6570.2,1482.6,Short Built Up,NEXT,OIBuildup,506.1,-12.3,
+AXISBANK,-1.85,52223,78220.0,12886.88,Short Built Up,NEXT,OIBuildup,1138.0,-21.5,
+SOLARINDS,-1.5,52518,567.08,116.48,Short Built Up,NEXT,OIBuildup,13626.0,-208.0,
+KOTAKBANK,-0.98,52430,31444.8,5449.6,Short Built Up,NEXT,OIBuildup,1986.9,-19.7,
+KEI,-0.94,52428,998.55,158.55,Short Built Up,NEXT,OIBuildup,4040.8,-38.3,
+MARUTI,-0.87,52454,2673.6,284.3,Short Built Up,NEXT,OIBuildup,16137.0,-142.0,
+LT,-0.85,52442,13968.85,1753.33,Short Built Up,NEXT,OIBuildup,3723.4,-31.9,
+FEDERALBNK,-0.85,52340,75825.0,10840.0,Short Built Up,NEXT,OIBuildup,191.1,-1.64,
+PERSISTENT,-0.83,52493,2172.6,330.4,Short Built Up,NEXT,OIBuildup,4935.0,-41.5,
+ICICIBANK,-0.78,52374,98517.3,15353.1,Short Built Up,NEXT,OIBuildup,1358.5,-10.7,
+IDEA,1.61,52379,3808688.33,0.0,Short Covering,NEXT,OIBuildup,8.22,0.13,
+BPCL,3.6,48597,175.78,27.65,Long Built Up,FAR,OIBuildup,339.5,11.8,
 HINDPETRO,3.35,48693,265.27,8.1,Long Built Up,FAR,OIBuildup,441.8,14.3,
-BPCL,3.17,48597,177.75,29.63,Long Built Up,FAR,OIBuildup,338.1,10.4,
-HINDZINC,3.15,48699,512.05,20.83,Long Built Up,FAR,OIBuildup,468.3,14.3,
-APLAPOLLO,2.28,44172,35.35,7.35,Long Built Up,FAR,OIBuildup,1714.5,38.3,
-IOC,2.19,48798,1355.25,63.38,Long Built Up,FAR,OIBuildup,150.06,3.22,
-GODREJPROP,2.14,48642,176.0,4.68,Long Built Up,FAR,OIBuildup,2022.0,42.3,
-INDUSINDBK,2.1,48751,1302.0,30.1,Long Built Up,FAR,OIBuildup,733.9,15.1,
-BANKINDIA,2.06,48580,967.2,5.2,Long Built Up,FAR,OIBuildup,119.87,2.42,
-IGL,1.98,48742,676.5,35.75,Long Built Up,FAR,OIBuildup,207.01,4.01,
-IIFL,1.94,48743,113.85,9.9,Long Built Up,FAR,OIBuildup,433.4,8.25,
-AXISBANK,-2.08,46477,850.0,45.63,Short Built Up,FAR,OIBuildup,1142.0,-24.3,
-SOLARINDS,-1.44,49090,29.63,1.65,Short Built Up,FAR,OIBuildup,13715.0,-201.0,
-ADANIENT,-1.21,38317,144.0,5.1,Short Built Up,FAR,OIBuildup,2540.1,-31.2,
-LT,-1.14,48874,117.08,10.15,Short Built Up,FAR,OIBuildup,3732.9,-43.7,
+HINDZINC,2.71,48699,553.7,62.48,Long Built Up,FAR,OIBuildup,466.3,12.3,
+IGL,2.36,48742,673.75,33.0,Long Built Up,FAR,OIBuildup,207.8,4.8,
+NCC,2.28,48920,494.1,5.4,Long Built Up,FAR,OIBuildup,209.54,4.68,
+GODREJPROP,2.26,48642,176.55,5.23,Long Built Up,FAR,OIBuildup,2024.5,44.8,
+INDUSINDBK,2.25,48751,1303.4,31.5,Long Built Up,FAR,OIBuildup,735.0,16.2,
+BANKINDIA,2.15,48580,982.8,20.8,Long Built Up,FAR,OIBuildup,119.97,2.52,
+IOC,2.11,48798,1360.13,68.25,Long Built Up,FAR,OIBuildup,149.94,3.1,
+GAIL,2.1,48638,1987.65,198.45,Long Built Up,FAR,OIBuildup,177.38,3.65,
+PGEL,-2.43,49061,164.5,33.6,Short Built Up,FAR,OIBuildup,509.0,-12.7,
+AXISBANK,-2.11,46477,851.88,47.5,Short Built Up,FAR,OIBuildup,1141.7,-24.6,
+SOLARINDS,-1.55,49090,29.93,1.95,Short Built Up,FAR,OIBuildup,13700.0,-216.0,
 BOSCHLTD,-1.05,48596,3.4,0.1,Short Built Up,FAR,OIBuildup,38085.0,-405.0,
-FEDERALBNK,-1.02,48636,1895.0,245.0,Short Built Up,FAR,OIBuildup,191.79,-1.98,
-KOTAKBANK,-0.99,48858,396.0,20.8,Short Built Up,FAR,OIBuildup,1997.8,-20.0,
-PERSISTENT,-0.98,49058,46.6,2.6,Short Built Up,FAR,OIBuildup,4950.0,-49.0,
-PGEL,-0.9,49061,155.4,24.5,Short Built Up,FAR,OIBuildup,517.0,-4.7,
-SUPREMEIND,-0.8,49094,6.3,0.88,Short Built Up,FAR,OIBuildup,4241.7,-34.3,
-PETRONET,3.53,49059,387.0,-34.2,Short Covering,FAR,OIBuildup,279.0,9.5,
+KOTAKBANK,-1.03,48858,396.8,21.6,Short Built Up,FAR,OIBuildup,1997.1,-20.7,
+TORNTPOWER,-1.01,49133,46.13,5.25,Short Built Up,FAR,OIBuildup,1234.4,-12.6,
+FEDERALBNK,-0.95,48636,1900.0,250.0,Short Built Up,FAR,OIBuildup,191.93,-1.84,
+LT,-0.87,48874,118.65,11.73,Short Built Up,FAR,OIBuildup,3743.8,-32.8,
+ADANIENT,-0.84,38317,143.7,4.8,Short Built Up,FAR,OIBuildup,2549.8,-21.5,
+ICICIBANK,-0.81,48707,2732.8,58.8,Short Built Up,FAR,OIBuildup,1365.4,-11.1,
+PETRONET,3.9,49059,387.0,-34.2,Short Covering,FAR,OIBuildup,280.0,10.5,
+VEDL,1.46,49163,796.95,0.0,Short Covering,FAR,OIBuildup,459.2,6.6,
 TORNTPHARM,1.45,49132,7.75,-0.75,Short Covering,FAR,OIBuildup,3634.0,52.0,
-MCX,1.13,48898,30.63,-1.25,Short Covering,FAR,OIBuildup,8111.5,90.5,
 CGPOWER,1.04,48605,209.95,-6.8,Short Covering,FAR,OIBuildup,757.0,7.8,
-M&M,0.78,48887,178.8,0.0,Short Covering,FAR,OIBuildup,3466.8,26.9,
-TIINDIA,0.61,49127,7.8,0.0,Short Covering,FAR,OIBuildup,3179.1,19.3,
-MARUTI,-0.72,48892,55.15,-0.6,Long Unwinding,FAR,OIBuildup,16231.0,-117.0,
+MCX,1.03,48898,30.63,-1.25,Short Covering,FAR,OIBuildup,8104.0,83.0,
+MARUTI,-0.9,48892,55.25,-0.5,Long Unwinding,FAR,OIBuildup,16201.0,-147.0,
 MFSL,-0.68,48901,27.2,0.0,Long Unwinding,FAR,OIBuildup,1558.5,-10.7,
-TVSMOTOR,-0.57,49135,77.35,0.0,Long Unwinding,FAR,OIBuildup,3432.0,-19.8,
 PHOENIXLTD,-0.53,49062,10.15,0.0,Long Unwinding,FAR,OIBuildup,1580.5,-8.5,
 KEI,-0.45,48851,7.17,0.0,Long Unwinding,FAR,OIBuildup,4080.0,-18.6,
 BRITANNIA,-0.4,48598,11.38,-0.13,Long Unwinding,FAR,OIBuildup,5950.0,-24.0,
 MANAPPURAM,-0.2,48888,261.0,-6.0,Long Unwinding,FAR,OIBuildup,279.0,-0.55,
 SHREECEM,0.0,49087,0.78,0.0,Long Unwinding,FAR,OIBuildup,29185.0,0.0,
-MIDCPNIFTY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.06
-MCX30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.55
-BANKNIFTY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.16
-NIFTY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.14
-NIFTYNXT5030SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.37
-NMDC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.77
-NTPC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.53
-NUVAMA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.45
-NYKAA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.86
+MIDCPNIFTY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.05
+MCX30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.56
+BANKNIFTY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.17
+NIFTY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.16
+NIFTYNXT5030SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.34
+NMDC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.8
+NTPC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.54
+NUVAMA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.49
+NYKAA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.79
 OBEROIRLTY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.25
-OFSS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.31
+OFSS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.32
 OIL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.28
 ONGC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.27
 PAGEIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.13
 PATANJALI30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.44
-PAYTM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.57
-PERSISTENT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.55
-PETRONET30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.42
-PFC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.94
-PGEL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
+PAYTM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.59
+PERSISTENT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.59
+PETRONET30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.39
+PFC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.96
+PGEL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.47
 PHOENIXLTD30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.37
-PIDILITIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.5
-PIIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.28
+PIDILITIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.51
+PIIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.27
 PNB30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.73
 PNBHOUSING30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.39
-POLICYBZR30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.73
-POLYCAB30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
-POWERGRID30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.73
-PPLPHARMA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.69
-PRESTIGE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.51
-RBLBANK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.13
-RECLTD30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.7
-RELIANCE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.71
-RVNL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.37
-SAIL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.57
+POLICYBZR30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.75
+POLYCAB30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.4
+POWERGRID30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.78
+PPLPHARMA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.71
+PRESTIGE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.52
+RBLBANK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.07
+RECLTD30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.71
+RELIANCE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.73
+RVNL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
+SAIL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.59
 SAMMAANCAP30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.44
 SBICARD30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.65
 SBILIFE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.33
 SBIN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.6
-SHREECEM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.82
-SHRIRAMFIN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.83
-SIEMENS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.36
+SHREECEM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.79
+SHRIRAMFIN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.8
+SIEMENS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.35
 SOLARINDS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.41
-SONACOMS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.39
-SRF30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.32
-SUNPHARMA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.01
-SUPREMEIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.2
+SONACOMS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.4
+SRF30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.35
+SUNPHARMA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.03
+SUPREMEIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.24
 SUZLON30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.66
-SYNGENE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.81
-TATACHEM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.41
-TATACONSUM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.73
-TATAELXSI30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.45
+SYNGENE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.83
+TATACHEM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.4
+TATACONSUM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.74
+TATAELXSI30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.47
 TATAMOTORS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.43
 TATAPOWER30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.73
-TATASTEEL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.65
-TATATECH30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.79
-TCS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.58
-TECHM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.71
-TIINDIA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.69
-TITAGARH30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.57
-TITAN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.3
-TORNTPHARM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.37
+TATASTEEL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.66
+TATATECH30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.82
+TCS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.6
+TECHM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.7
+TIINDIA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.68
+TITAGARH30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.56
+TITAN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.31
+TORNTPHARM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.34
 TORNTPOWER30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.43
 TRENT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.31
-TVSMOTOR30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.49
-ULTRACEMCO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.23
-UNIONBANK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.59
-UNITDSPR30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.39
-UNOMINDA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.34
-UPL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.36
+TVSMOTOR30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.51
+ULTRACEMCO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.25
+UNIONBANK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.66
+UNITDSPR30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.41
+UNOMINDA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.33
+UPL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
 VBL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.33
-VEDL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.53
-VOLTAS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.43
-WIPRO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.41
-YESBANK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.41
+VEDL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.54
+VOLTAS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.41
+WIPRO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.4
+YESBANK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.45
 ZYDUSLIFE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.29
-BDL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.47
+BDL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.48
 BEL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.37
-BHARATFORG30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.67
+BHARATFORG30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.63
 BHARTIARTL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.5
 BHEL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.51
 BIOCON30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.8
-BLUESTARCO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.37
-BOSCHLTD30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.22
-BPCL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.32
+BLUESTARCO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.33
+BOSCHLTD30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.21
+BPCL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.33
 BRITANNIA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.55
-BSE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.67
-CAMS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.35
-CANBK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.41
-CDSL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.68
+BSE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.69
+CAMS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
+CANBK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.43
+CDSL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.66
 CGPOWER30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.42
-CHOLAFIN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.72
-CIPLA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.86
-COALINDIA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.39
+CHOLAFIN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.71
+CIPLA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.87
+COALINDIA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.4
 COFORGE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.43
-COLPAL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.35
-CONCOR30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
+COLPAL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.37
+CONCOR30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.4
 CROMPTON30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.6
-CUMMINSIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.7
-CYIENT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.09
+CUMMINSIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.69
+CYIENT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.25
 DABUR30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.56
-DALBHARAT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.43
-DELHIVERY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.0
+DALBHARAT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.41
+DELHIVERY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.03
 DIVISLAB30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.9
-DIXON30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.37
+DIXON30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.4
 DLF30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.42
-DMART30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.26
-DRREDDY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.84
-EICHERMOT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.66
-ETERNAL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.62
+DMART30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.27
+DRREDDY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.85
+EICHERMOT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.67
+ETERNAL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.6
 EXIDEIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.6
-FEDERALBNK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.79
-FINNIFTY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.17
-FORTIS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.51
-GAIL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.41
-GLENMARK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.79
-GMRAIRPORT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.2
-GODREJCP30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.58
+FEDERALBNK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.77
+FINNIFTY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.18
+FORTIS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.49
+GAIL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.4
+GLENMARK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.77
+GMRAIRPORT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.24
+GODREJCP30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.64
 GODREJPROP30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.37
 GRASIM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
-HAL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.49
-HAVELLS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.43
-HCLTECH30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.78
-HDFCAMC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.66
+HAL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.5
+HAVELLS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.41
+HCLTECH30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.83
+HDFCAMC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.69
 HDFCBANK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.66
-HDFCLIFE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.5
-HEROMOTOCO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.48
-HFCL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.48
+HDFCLIFE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.51
+HEROMOTOCO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.49
+HFCL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.47
 HINDALCO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.5
 HINDPETRO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.36
 HINDUNILVR30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.92
-HINDZINC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
-HUDCO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.36
+HINDZINC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.37
+HUDCO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.37
 ICICIBANK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.64
 ICICIGI30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.26
-ICICIPRULI30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.56
-IDEA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.09
-IDFCFIRSTB30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.05
-IEX30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.97
+ICICIPRULI30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.59
+IDEA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.19
+IDFCFIRSTB30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.07
+IEX30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.15
 IGL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.59
-IIFL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.4
-INDHOTEL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.42
-INDIANB30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.53
-INDIGO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
-INDUSINDBK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.77
-INDUSTOWER30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.53
-INFY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.52
-INOXWIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.42
+IIFL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.41
+INDHOTEL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.43
+INDIANB30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.54
+INDIGO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.39
+INDUSINDBK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.72
+INDUSTOWER30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.56
+INFY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.55
+INOXWIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.43
 IOC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.29
-IRCTC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.55
+IRCTC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.58
 IREDA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.43
-IRFC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.43
-ITC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.67
+IRFC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.49
+ITC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.66
 JINDALSTEL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.29
-JIOFIN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.57
-JSWENERGY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.43
-JSWSTEEL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.47
-JUBLFOOD30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.54
-KALYANKJIL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.76
+JIOFIN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.55
+JSWENERGY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.42
+JSWSTEEL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.48
+JUBLFOOD30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.56
+KALYANKJIL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.75
 KAYNES30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.81
 KEI30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.41
-KFINTECH30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.53
+KFINTECH30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.52
 KOTAKBANK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.79
-KPITTECH30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.49
-LAURUSLABS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.82
-LICHSGFIN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.54
-LICI30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
-LODHA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.35
-LT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.71
-LTF30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.89
-LTIM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.46
-LUPIN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.75
+KPITTECH30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.5
+LAURUSLABS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.84
+LICHSGFIN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.53
+LICI30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.39
+LODHA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
+LT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.69
+LTF30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.88
+LTIM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.48
+LUPIN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.76
 M&M30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.57
-MANAPPURAM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.67
-MANKIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.66
-MARICO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.08
-MARUTI30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.6
-MAXHEALTH30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.48
-MAZDOCK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.71
+MANAPPURAM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.66
+MANKIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.7
+MARICO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.06
+MARUTI30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.61
+MAXHEALTH30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.47
+MAZDOCK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.76
 MFSL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.42
-MOTHERSON30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.94
-MPHASIS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.26
-MUTHOOTFIN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.54
-NATIONALUM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.42
+MOTHERSON30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.0
+MPHASIS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.27
+MUTHOOTFIN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.56
+NATIONALUM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.43
 NAUKRI30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.75
 NBCC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.47
-NCC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.41
-NESTLEIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.8
-NHPC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.71
+NCC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.42
+NESTLEIND30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.81
+NHPC30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.7
 330SEP2530SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.19
-ABB30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.63
+ABB30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.64
 ABCAPITAL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.39
-ADANIENSOL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.5
-ADANIENT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.56
-ADANIGREEN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.44
-ADANIPORTS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.59
-ALKEM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.09
-AMBER30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.09
-AMBUJACEM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.3
-ANGELONE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.55
-APLAPOLLO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.41
+ADANIENSOL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.51
+ADANIENT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.59
+ADANIGREEN30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.45
+ADANIPORTS30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.61
+ALKEM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.13
+AMBER30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.06
+AMBUJACEM30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.31
+ANGELONE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.56
+APLAPOLLO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.44
 APOLLOHOSP30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
-ASHOKLEY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.33
+ASHOKLEY30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.3
 ASIANPAINT30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.4
-ASTRAL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.68
+ASTRAL30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.72
 AUBANK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.78
-AUROPHARMA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.93
-AXISBANK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.16
-BAJAJ-AUTO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.35
-BAJAJFINSV30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.52
+AUROPHARMA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.89
+AXISBANK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,1.17
+BAJAJ-AUTO30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.37
+BAJAJFINSV30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.53
 BAJFINANCE30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.59
 BANDHANBNK30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
-BANKBARODA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.75
+BANKBARODA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.73
 BANKINDIA30SEP25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.34
