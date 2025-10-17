@@ -282,14 +282,6 @@ TORNTPHARM28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.24
 TORNTPOWER28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.8
 TRENT28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.44
 TVSMOTOR28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.53
-BDL28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.26
-BEL28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.42
-BHARATFORG28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.46
-BHARTIARTL28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.46
-BHEL28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.46
-BIOCON28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
-BLUESTARCO28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.53
-BOSCHLTD28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.39
 BPCL28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.44
 BRITANNIA28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.42
 BSE28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.71
@@ -428,3 +420,11 @@ BAJFINANCE28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.82
 BANDHANBNK28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.39
 BANKBARODA28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.54
 BANKINDIA28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.29
+BDL28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.26
+BEL28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.42
+BHARATFORG28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.46
+BHARTIARTL28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.46
+BHEL28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.46
+BIOCON28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.38
+BLUESTARCO28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.53
+BOSCHLTD28OCT25FUT,,,,,PCR Volume,N/A,putCallRatio,,,0.39
